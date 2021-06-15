@@ -5,23 +5,26 @@ import Clipboard from 'expo-clipboard';
 import React, { useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
+type CopyProps = 'copy' | 'notCopy' 
 
 //Will be used to generate the passwords
 let charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ129384132914841294@#&!';
 
 export default function App() {
 
+  // Google Fonts
   let [fontsLoaded] = useFonts({
     Montserrat_400Regular,
     Montserrat_700Bold,
     Montserrat_500Medium,
   });
 
+  // Variables
   const [password, setPassword] = useState('');
   const [size, setSize] = useState(5);
-  const [copy, setCopy] = useState('notCopy')
+  const [copy, setCopy] = useState<CopyProps>('notCopy')
 
-  //depending the characters the user want, will create a password using the information by the charset
+  //Depending the characters the user want, will create a password using the information by the charset
   function generatePass() {
     setCopy('notCopy')
 
@@ -32,7 +35,7 @@ export default function App() {
     setPassword(pass)
   }
 
-  //alow to copy the password
+  //Allow to copy the password
   function copyPass() {
     Clipboard.setString(password)
     setCopy('copy')
@@ -42,7 +45,7 @@ export default function App() {
     return <AppLoading />;
   }
 
-  //displays the information in the screen
+  // Displays the information in the screen
   return (
     <View style={styles.container}>
       <Image
