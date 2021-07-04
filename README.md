@@ -1,4 +1,32 @@
 <h1 align='center'>🔑 Password Generator</h1>
+![Novo Projeto](https://user-images.githubusercontent.com/70600553/124390766-679ce100-dcc3-11eb-881c-980db6c94588.png)
 
-![image0](https://user-images.githubusercontent.com/70600553/124390439-07f20600-dcc2-11eb-8469-db0e0dab77d5.jpeg) ![image1](https://user-images.githubusercontent.com/70600553/124390440-088a9c80-dcc2-11eb-8cbc-84c0746566ba.jpeg) ![image3](https://user-images.githubusercontent.com/70600553/124390441-088a9c80-dcc2-11eb-8423-38a3b1d302ad.jpeg)
+# 📕 About this Project
+#### This is a project that was requested as an activity for the Mobile Programming module of the Systems Analysis and Development course at Etec Taboão da Serra.
+
+Application features:
+- Create passwords according to the number of characters selected;
+- Characters are chosen at random, in a combination of upper and lower case letters, numbers and special characters;
+- By pressing and holding the generated password you copy it automatically.
+
+# Technologies used
+ - React Native
+ - Typescript
+ - Expo
+
+
+# 💻 How to install?
+To clone and run this application, you'll need Git, Node, Yarn and Expo installed on your computer. From your command line:
+```
+# Clone the repository
+$ git clone https://github.com/KaiqueCampos/PasswordGenerator.git
+
+# Enter the repository
+$ cd PasswordGenerator
+
+# install dependencies
+$ yarn install
+
+# Launch the application
+$ expo start
 
