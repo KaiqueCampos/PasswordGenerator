@@ -1,5 +1,5 @@
 <h1 align='center'>🔑 Password Generator</h1>
-![Novo Projeto](https://user-images.githubusercontent.com/70600553/124390997-b139fb80-dcc4-11eb-8dea-7b6ce10457d9.png)
+<p align='center'><img src='https://user-images.githubusercontent.com/70600553/124390997-b139fb80-dcc4-11eb-8dea-7b6ce10457d9.png'/></p>
 
 # 📕 About this Project
 #### This is a project that was requested as an activity for the Mobile Programming module of the Systems Analysis and Development course at Etec Taboão da Serra.
