@@ -1,1 +1,1 @@
-<h1 style="text-align:center">🔑 Password Generator</h1>
+<h1 align='center'>🔑 Password Generator</h1>
